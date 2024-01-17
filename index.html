@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="ifedayo-login.css">
+    <title>Project work</title>
+</head>
+<body>
+    <div class="divform">
+        <header class="signupheader">SIGN-UP PAGE</header>
+    <form action="ifedayo-login.html" method="get" onsubmit="return validateform()">
+    <label for="Name">Username:</label> <br>
+    <input type="text" id="username"  onKeyDown="removeErrorMessage()"> 
+    <span id="message1" style="color:red"> </span> 
+    <br><br>
+    <label for="email">Email address:</label> <br>
+    <input type="email" id="email"  onKeyDown="removeErrorMessage()">
+    <span id="message2" style="color:red"> </span> 
+    <br><br>
+    <label for="pwd">Password:</label> <br>
+    <input type="password" id="password1"  onKeyDown="removeErrorMessage()">
+    <span id="message3" style="color:red"> </span> 
+    <br><br>
+    <label for="pwd">Confirm Password:</label> <br>
+    <input type="password" id="password2"  onKeyDown="removeErrorMessage()">
+    <span id="message4" style="color:red"> </span> 
+     <br><br>
+    <button type="submit">Sign-up</button>
+    <br><br>
+    <span>Already have an account, click <a href="ifedayo-login.html">here</a> to log in.</span>
+        </form>
+    </div>
+    <script src="ifedayo-signup.js"></script>
+</body>
+</html>
